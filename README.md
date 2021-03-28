@@ -1,4 +1,4 @@
-# 如何在 esp32cam 模块中使用 micropython
+# 如何在 esp32-cam 模块中使用 micropython
 
 使用的工具：
 - [固件](https://github.com/lemariva/uPyCam)
@@ -50,3 +50,7 @@ Change: 2021-03-27 23:11:23.375257192 +0100
 ![](document/putty-settings.png)
 ![](document/putty-content.png)
 ![](document/putty-repl.png)
+
+
+### 参考链接
+[Tutorial: Getting Started with MicroPython on ESP32, M5Stack, and ESP8266](https://lemariva.com/blog/2020/03/tutorial-getting-started-micropython-v20)
