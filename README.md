@@ -6,7 +6,7 @@
 - putty
 
 ## 1. 安装esptool工具
-> `sudo pip install esptool`
+> `sudo apt install esptool`
 
 ## 2. 刷固件
 首先得把固件刷到esp32cam板子中去。
