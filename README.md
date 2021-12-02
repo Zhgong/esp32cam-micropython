@@ -24,7 +24,7 @@ esptool.py --chip esp32 --port /dev/ttyUSB0 --baud 460800 write_flash -z 0x1000 
 ```
 
 
-然后尝试链接ttyUSB0端口，看到资料上说，可以通过ttyUSB0端口操作mcropython，到目前为止没有实际用过，结果死活连不上，不管是通过`vscode`中的`pymakr`还是`putty`，亦或`screen /dev/ttyUSB0`都是没有反应。后来`sudoscreen /dev/ttyUSB0`乱码输出。才发现是普通用户没有使用tty的权限。
+然后尝试链接ttyUSB0端口，看到资料上说，可以通过ttyUSB0端口操作mcropython，到目前为止没有实际用过，结果死活连不上，不管是通过`vscode`中的`pymakr`还是`putty`，亦或`screen /dev/ttyUSB0`都是没有反应。后来`sudo screen /dev/ttyUSB0`乱码输出。才发现是普通用户没有使用tty的权限。
 
 ## 3. 解决普通用户无法访问/dev/ttyUSB0
 ```
